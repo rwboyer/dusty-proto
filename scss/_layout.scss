@@ -11,6 +11,10 @@ nav{
   padding: 2rem;
   background-color: black;
   color: white;
+  @media (max-width: 800px){
+    width: 100%;
+    height: auto !important;
+  }
 }
 
 .main{
@@ -26,6 +30,16 @@ nav{
     height: 100%;
     width: 100%;
     padding: 2rem;
+  }  
+  @media (max-width: 800px){
+    width: 100%;
+    margin-left: 0;
+    position: relative;
+    overflow: visible;
+    & .content{
+      overflow: visible;
+    }
+    //height: auto !important;
   }
 }
 

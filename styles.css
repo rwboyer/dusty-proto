@@ -216,6 +216,10 @@ nav {
   padding: 2rem;
   background-color: black;
   color: white; }
+  @media (max-width: 800px) {
+    nav {
+      width: 100%;
+      height: auto !important; } }
 
 .main {
   position: fixed;
@@ -230,6 +234,14 @@ nav {
     height: 100%;
     width: 100%;
     padding: 2rem; }
+  @media (max-width: 800px) {
+    .main {
+      width: 100%;
+      margin-left: 0;
+      position: relative;
+      overflow: visible; }
+      .main .content {
+        overflow: visible; } }
 
 img {
   max-width: 100%; }

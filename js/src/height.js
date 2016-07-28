@@ -1,7 +1,7 @@
 (function( $ ){
   $(window).on('resize', function(){
-    var cw = $('.content').outerHeight();
-    $('.main').css({'height':cw+'px'});
+    //var cw = $('.content').outerHeight();
+    //$('.main').css({'height':cw+'px'});
     if($('nav').outerHeight() < $(window).height()){
       $('nav').css({'height':$(window).height()+'px'});
     }

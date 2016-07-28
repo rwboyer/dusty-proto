@@ -13,6 +13,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2259,
+		"inputAbbreviatedPath": "\/assets\/images\/logo.png",
+		"outputAbbreviatedPath": "\/assets\/images\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/sidebar.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 309292,
+		"inputAbbreviatedPath": "\/assets\/images\/sidebar.png",
+		"outputAbbreviatedPath": "\/assets\/images\/sidebar.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/bower_components\/bitters\/contrib\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -3231,12 +3253,34 @@
 		"outputStyle": 2,
 		"syntaxCheckerStyle": 1
 		},
+	"\/js\/src\/menu.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/js\/src\/menu.js",
+		"outputAbbreviatedPath": "\/js\/src\/min\/menu-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
 	"\/js\/src\/min\/height-min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/src\/min\/height-min.js",
 		"outputAbbreviatedPath": "\/js\/src\/min\/min\/height-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/src\/min\/menu-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/src\/min\/menu-min.js",
+		"outputAbbreviatedPath": "\/js\/src\/min\/min\/menu-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 2,
@@ -3251,6 +3295,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/_layout.scss",
 		"outputAbbreviatedPath": "\/css\/_layout.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"\/scss\/_navigation.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_navigation.scss",
+		"outputAbbreviatedPath": "\/scss\/_navigation.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

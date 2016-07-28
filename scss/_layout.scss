@@ -2,18 +2,73 @@ body{
   margin: 0;
 }
 
-nav{
+nav.side{
   position: relative;
   top: 0;
   left: 0;
   width: 20rem;
   //height: 1024px;
   padding: 2rem;
-  background-color: black;
+  background-image: url('assets/images/sidebar.png');
+  background-position: center center;
+  background-size: cover;
   color: white;
   @media (max-width: 800px){
     width: 100%;
     height: auto !important;
+  }
+  img.logo{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 2rem;
+  }
+  ul.icons{
+    text-align: center;
+    padding-top: 2rem;
+    li{
+      display: inline;
+      font-size: modular-scale(3);
+      padding: 1rem;
+      &.mobile-menu{
+        display: none;
+        @media(max-width: 800px){
+          display: inline;
+        }
+      }
+    }
+    a{
+      color: white;
+      transition: all .2s linear;
+      &:hover{
+        color: shade(white, 25);
+      }
+    }
+  }
+  ul.menu{
+    padding-top: 2rem;
+    overflow: hidden;
+    max-height: auto;
+    transition: max-height 1s linear;
+    li{
+      text-align: center;
+      padding: .5rem 0 .5rem 0;
+      font-size: modular-scale(-1);
+    }
+    a{
+      color: shade(white, 50);
+      transition: all .2s linear;
+      &:hover{
+        color: shade(white, 25);
+      }
+    }
+  }
+  .copyright{
+    font-size: modular-scale(-1);
+    color: shade(white, 50);
+    text-align: center;
+    padding-top: 2rem;
+    text-transform: uppercase;
   }
 }
 

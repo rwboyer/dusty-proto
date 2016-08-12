@@ -6,23 +6,37 @@
 		<script src="https://use.fontawesome.com/9dd96a3977.js"></script>
 	</head>
 	<body>
+  	<div class="top-msg"><span>A Cycling Event Series Celebrating Local Food In The Shenandoah Valley</span></div>
   	<nav class="side">
-    	<img class="logo" src="assets/images/logo.png">
+    	<img class="logo site" src="assets/images/eaten-logo.png">
+    	<ul class="menu">
+      	<a href="#"><li>Events</li></a>
+      	<a href="#"><li>About</li></a>
+      	<a href="#"><li>Contact</li></a>
+    	</ul>
     	<ul class="icons">
       	<a href="http://instagram.com"><li><i class="fa fa-instagram"></i></li></a>
       	<a href="http://facebook.com"><li><i class="fa fa-facebook-official"></i></li></a>
       	<a href="http://youtube.com"><li><i class="fa fa-youtube"></i></li></a>
       	<a href="javascript:void(0)"><li class="mobile-menu"><i class="fa fa-navicon"></i></li></a>
     	</ul>
-    	<ul class="menu">
-      	<a href="#"><li>Home</li></a>
-      	<a href="#"><li>Events</li></a>
-      	<a href="#"><li>About</li></a>
-    	</ul>
+    	<div id="sponsors">
+    	<h1>Sponsored By:</h1>
+      	<a href="#" target="_blank"><img class="logo" src="assets/images/bluestone-logo.png"></a>
+      	<a href="#" target="_blank"><img class="logo" src="assets/images/relay-logo.png"></a>
+    	</div>
+    	<a href="#"><button>Register Now</button></a>
     	<p class="copyright">Copyright &copy; TwoFish 2016</p>
   	</nav>
   	<section class="main">
-    	<section class="content">
+    	<img class="hero" src="assets/images/bike-hero.png">
+    	<section id="mission">
+      	<section class="content">
+        	<p>Off the Eaten Path is a series of road cycling events in the Shenandoah Valley of Virginia that pairs our passion for riding bikes with our love of local food and drink. When ridden consecutively, each ride increases incrementally in mileage, culminating with a century (100(ish) mile) ride at the end of the season featuring multiple stops to rest, eat, drink and enjoy life with your riding mates.</p>
+        	<p>Join us for one, several or all of our events this year, each starting and finishing at one of the valley’s finest local farms or vineyards. All events include a pleasantly challenging group ride of varying distance followed by an authentic farm-to-fork supper made from fresh, local ingredients and paired with our favorite local beverages.</p>
+        	<h3>GET INDIVIDUAL EVENT DETAILS DOWN BELOW</h3>
+      	</section>
+    	</section>
       	
 <!--
 <header class="centered-navigation" role="banner">
@@ -66,12 +80,50 @@
   </div>
 </header>
 -->
-      	
-    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    	<img src="assets/images/LAROQUE-string-06.jpg">
-    	</section>
+      <section id="farm">
+        <section class="content">
+          	<h3>$5 from every registration is donated to:</h3>
+          	<a href="#" target="_blank"><img src="assets/images/farm-logo.png"></a>
+          	<p>Defending the rights and broadening the freedoms of family farms and protecting consumer access to raw milk and nutrient dense foods.</p>
+        </section>
+      </section>
+      <ul class="farm-grid">
+        <li class="farm-item"></li>
+        <li class="farm-item"></li>
+        <li class="farm-item"></li>
+        <li class="farm-item"></li>
+        <li class="farm-item"></li>
+        <li class="farm-item"></li>
+      </ul>
+      <section id="contact">
+        <section class="content">
+          <ul class="footer">
+            <li class="circus-logo">
+              <a href="#" target="_blank"><img src="assets/images/circus-logo.png"></a>
+            </li>
+            <li class="circus-links">
+              <p>Event by Circus Bear Productions</p>
+              <h3>OTHER CBP EVENTS&hellip;</h3>
+              <a href="#"><h3>RAMSEY’S REVENGE MTB RACE</h3></a>
+              <a href="#"><h3>WESTERN SLOPE TRAIL FESTIVAL</h3></a>
+              <a href="#"><button>VISIT CBP WEBSITE</button></a>
+            </li>
+            <li class="contact-form">
+              <form action="https://formspree.io/vpetrone@loganllc.com" method="post">
+                <input type="hidden" name="_next" value="http://www.loganllc.com/?showModal=yes"/>
+                <div id="contact-contain">
+                  <h3>Contact Us</h3>
+                  <input type="text" name="name" id="name" placeholder="Name">
+                  <input type="text" name="email" id="email" placeholder="Email">
+                  <input type="text" name="phone" id="phone" placeholder="Phone">
+                  <textarea name="message" placeholder="Message..."></textarea>
+                  <button type="submit" id="submit-button"><i class="fa fa-envelope"></i></button>
+                </div>
+              </form>
+            </li>
+          </ul>
+        </section>
+      </section>
   	</section>
 	</body>
 </html>

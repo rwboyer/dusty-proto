@@ -1,5 +1,39 @@
+@mixin center-h(){
+  position: relative;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+@mixin center-v(){
+  position: relative;
+  transform: translateY(-50%);
+  top: 50%;
+}
+
+@mixin center-vh(){
+  @include center-h();
+  @include center-v();
+}
+
 body{
   margin: 0;
+}
+
+.top-msg{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4rem;
+  background-color: $highlight-color-dark;
+  z-index: 5;
+  color: white;
+  text-align: center;
+  span{
+    @include center-v();
+    display: block;
+    text-transform: uppercase;
+  }
 }
 
 nav.side{
@@ -8,24 +42,29 @@ nav.side{
   left: 0;
   width: 20rem;
   //height: 1024px;
-  padding: 2rem;
-  background-image: url('assets/images/sidebar.png');
-  background-position: center center;
-  background-size: cover;
-  color: white;
+  padding: 4rem 2rem 2rem 2rem;
+  //background-image: url('assets/images/sidebar.png');
+  //background-position: center center;
+  //background-size: cover;
+  background-color: $nav-background-color;
+  color: $highlight-color-dark;
   @media (max-width: 800px){
     width: 100%;
     height: auto !important;
   }
   img.logo{
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+    @include center-h();
     padding-top: 2rem;
+    &.site{
+      @media (max-width: 800px){
+        height: 15rem;
+      }
+    }
   }
   ul.icons{
     text-align: center;
     padding-top: 2rem;
+    padding-bottom: 2rem;
     li{
       display: inline;
       font-size: modular-scale(3);
@@ -38,10 +77,10 @@ nav.side{
       }
     }
     a{
-      color: white;
+      color: $highlight-color-dark;
       transition: all .2s linear;
       &:hover{
-        color: shade(white, 25);
+        color: tint($highlight-color-dark, 25);
       }
     }
   }
@@ -52,20 +91,45 @@ nav.side{
     transition: max-height 1s linear;
     li{
       text-align: center;
+      text-transform: uppercase;
       padding: .5rem 0 .5rem 0;
-      font-size: modular-scale(-1);
+      //font-size: modular-scale(-1);
     }
     a{
-      color: shade(white, 50);
+      color: $highlight-color-dark;
       transition: all .2s linear;
       &:hover{
-        color: shade(white, 25);
+        color: tint($highlight-color-dark, 25);
+      }
+    }
+  }
+  h1{
+    font-size: modular-scale(1);
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  button{
+    @include center-h();
+    background-color: $highlight-color-light;
+    &:hover{
+      background-color: shade($highlight-color-light, 10);
+    }
+  }
+  #sponsors{
+    padding-bottom: 2rem;
+    text-align: center;
+    @media (max-width: 800px){
+      img.logo{
+        width: 15rem;
+        transform: none;
+        left: auto;
       }
     }
   }
   .copyright{
     font-size: modular-scale(-1);
-    color: shade(white, 50);
+    color: $highlight-color-dark;
     text-align: center;
     padding-top: 2rem;
     text-transform: uppercase;
@@ -79,18 +143,44 @@ nav.side{
   overflow: auto;
   width: calc(100% - 20rem);
   height: 100%;
+  padding-top: 4rem;
+  #mission{
+    background-color: $highlight-color-light;
+    color: white;
+    padding: 3rem 4rem;
+    text-align: center;
+    h3{
+      font-size: modular-scale(0);
+      margin: 0;
+    }
+    @media (max-width: $medium-screen){
+      padding: 2rem;
+    }
+  }
+  #farm{
+    padding: 3rem 4rem;
+    text-align: center;
+    img{
+      width: 35rem;
+      padding-bottom: 1rem;
+    }
+    @media (max-width: $medium-screen){
+      padding: 2rem;
+    }
+  }
   .content{
-    position: absolute;
-    overflow-y: scroll;
-    height: 100%;
-    width: 100%;
-    padding: 2rem;
+    //position: absolute;
+    //overflow-y: scroll;
+    //height: 100%;
+    //width: 100%;
+    //padding: 2rem;
   }  
   @media (max-width: 800px){
     width: 100%;
     margin-left: 0;
     position: relative;
     overflow: visible;
+    padding: 0;
     & .content{
       overflow: visible;
     }
@@ -100,4 +190,66 @@ nav.side{
 
 img{
   max-width: 100%;
+}
+
+button{
+  background-color: $highlight-color-dark;
+  text-transform: uppercase;
+}
+
+.farm-grid{
+  display: flex;
+  flex-wrap: wrap;
+  .farm-item{
+    flex-basis: 33.333%;
+    background-color: $light-gray;
+    height: 100px;
+    &:nth-child(even){
+      background-color: shade($light-gray, 20);
+    }
+  }
+}
+
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  .circus-logo{
+    flex-basis: 20%;
+    padding: 2rem 1rem;
+    text-align: center;
+    @media (max-width: $medium-screen){
+      flex-basis: 30%;
+    }
+  }
+  .circus-links{
+    flex-basis: 40%;
+    padding: 2rem;
+    h3, a{
+      line-height: 1.8rem;
+    }
+    button{
+      margin-top: 2rem;
+    }
+    @media (max-width: $medium-screen){
+      flex-basis: 70%;
+    }
+  }
+  .contact-form{
+    flex-basis: 40%;
+    padding: 2rem;
+    @media (max-width: $medium-screen){
+      flex-basis: 100%;
+    }
+  }
+  h3{
+    text-transform: uppercase;
+    font-size: modular-scale(0);
+    margin-bottom: 0;
+  }
+  button{
+    background-color: $footer-dark;
+    &:hover{
+      background-color: tint($footer-dark, 10);
+    }
+  }
 }

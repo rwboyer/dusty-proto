@@ -27,8 +27,8 @@ textarea {
 
 #{$all-text-inputs},
 select[multiple] {
-  background-color: $base-background-color;
-  border: $base-border;
+  background-color: $nav-background-color;
+  border: $nav-background-color;
   border-radius: $base-border-radius;
   box-shadow: $form-box-shadow;
   box-sizing: border-box;

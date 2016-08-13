@@ -22,8 +22,8 @@
     	</ul>
     	<div id="sponsors">
     	<h1>Sponsored By:</h1>
-      	<a href="#" target="_blank"><img class="logo" src="assets/images/bluestone-logo.png"></a>
-      	<a href="#" target="_blank"><img class="logo" src="assets/images/relay-logo.png"></a>
+      	<a href="#" target="_blank"><img class="logo sponsors" src="assets/images/bluestone-logo.png"></a>
+      	<a href="#" target="_blank"><img class="logo sponsors" src="assets/images/relay-logo.png"></a>
     	</div>
     	<a href="#"><button>Register Now</button></a>
     	<p class="copyright">Copyright &copy; TwoFish 2016</p>
@@ -80,6 +80,30 @@
   </div>
 </header>
 -->
+      <section id="sign-up">
+        <section class="content">
+          <h3>Sign up to receive emails about upcoming events</h3>
+          <form action="https://formspree.io/vpetrone@loganllc.com" method="post">
+            <div id="contact-contain">
+              <input type="text" name="first-name" id="first-name" placeholder="First Name">
+              <input type="text" name="last-name" id="last-name" placeholder="Last Name">
+              <input type="text" name="email" id="email" placeholder="Email">
+              <button type="submit" id="submit-button">Sign Up</i></button>
+            </div>
+          </form>
+        </section>
+      </section>
+      <section id="countdown">
+        <h3>The Next Event Is In</h3>
+        <section class="content">
+          <div id="clock"></div>
+          <script>
+            $('#clock').countdown('2016/10/10', function(event) {
+              $(this).html(event.strftime('<span>%D</span>:<span>%H</span>:<span>%M</span>:<span>%S</span>'));
+            });
+          </script>
+        </section>
+      </section>
       <section id="farm">
         <section class="content">
           	<h3>$5 from every registration is donated to:</h3>

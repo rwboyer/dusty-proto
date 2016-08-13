@@ -168,6 +168,42 @@ nav.side{
       padding: 2rem;
     }
   }
+  #sign-up{
+    padding: 3rem 2rem;
+    text-align: center;
+    h3{
+    }
+    #{$all-text-inputs}{
+      display: inline-block;
+      width: 12rem;
+      line-height: 1.6rem;
+      &:placeholder-shown{
+        text-transform: uppercase;
+      }
+    }
+  }
+  #countdown{
+    height: 20rem;
+    background-color: #156aa7;
+    text-align: center;
+    padding: 2rem;
+    color: white;
+    h3{
+      text-transform: uppercase;
+      color: white;
+    }
+    #clock{
+      font-size: 4rem;
+      position: relative;
+      top: 3rem;
+      span{
+        font-size: 4rem;
+        background-color: rgba(0,0,0,0.2);
+        padding: 2rem 1rem;
+        margin: 0 1rem;
+      }
+    }
+  }
   .content{
     //position: absolute;
     //overflow-y: scroll;

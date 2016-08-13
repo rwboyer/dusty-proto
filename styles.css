@@ -340,6 +340,33 @@ nav.side {
     @media (max-width: 600px) {
       .main #farm {
         padding: 2rem; } }
+  .main #sign-up {
+    padding: 3rem 2rem;
+    text-align: center; }
+    .main #sign-up input[type="color"], .main #sign-up input[type="date"], .main #sign-up input[type="datetime"], .main #sign-up input[type="datetime-local"], .main #sign-up input[type="email"], .main #sign-up input[type="month"], .main #sign-up input[type="number"], .main #sign-up input[type="password"], .main #sign-up input[type="search"], .main #sign-up input[type="tel"], .main #sign-up input[type="text"], .main #sign-up input[type="time"], .main #sign-up input[type="url"], .main #sign-up input[type="week"], .main #sign-up input:not([type]), .main #sign-up textarea {
+      display: inline-block;
+      width: 12rem;
+      line-height: 1.6rem; }
+      .main #sign-up input[type="color"]:placeholder-shown, .main #sign-up input[type="date"]:placeholder-shown, .main #sign-up input[type="datetime"]:placeholder-shown, .main #sign-up input[type="datetime-local"]:placeholder-shown, .main #sign-up input[type="email"]:placeholder-shown, .main #sign-up input[type="month"]:placeholder-shown, .main #sign-up input[type="number"]:placeholder-shown, .main #sign-up input[type="password"]:placeholder-shown, .main #sign-up input[type="search"]:placeholder-shown, .main #sign-up input[type="tel"]:placeholder-shown, .main #sign-up input[type="text"]:placeholder-shown, .main #sign-up input[type="time"]:placeholder-shown, .main #sign-up input[type="url"]:placeholder-shown, .main #sign-up input[type="week"]:placeholder-shown, .main #sign-up input:not([type]):placeholder-shown, .main #sign-up textarea:placeholder-shown {
+        text-transform: uppercase; }
+  .main #countdown {
+    height: 20rem;
+    background-color: #156aa7;
+    text-align: center;
+    padding: 2rem;
+    color: white; }
+    .main #countdown h3 {
+      text-transform: uppercase;
+      color: white; }
+    .main #countdown #clock {
+      font-size: 4rem;
+      position: relative;
+      top: 3rem; }
+      .main #countdown #clock span {
+        font-size: 4rem;
+        background-color: rgba(0, 0, 0, 0.2);
+        padding: 2rem 1rem;
+        margin: 0 1rem; }
   @media (max-width: 800px) {
     .main {
       width: 100%;

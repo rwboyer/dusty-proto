@@ -204,6 +204,14 @@ nav.side{
       }
     }
   }
+  #upcoming-events{
+    padding: 2rem;
+    background-color: $secondary-background-color;
+    h3{
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
   .content{
     //position: absolute;
     //overflow-y: scroll;
@@ -221,6 +229,10 @@ nav.side{
       overflow: visible;
     }
     //height: auto !important;
+    #countdown, #farm, #mission, #sign-up, #upcoming-events{
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
   }
 }
 
@@ -243,6 +255,73 @@ button{
     &:nth-child(even){
       background-color: shade($light-gray, 20);
     }
+  }
+}
+
+.upcoming{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  margin-top: 1rem;
+  li{
+    flex-basis: 50%;
+    padding: 2rem;
+    @media (max-width: 800px){
+      flex-basis: 100%;
+      padding: 1rem;
+    }
+  }
+  .event-info{
+    background-color: $nav-background-color;
+  }
+  .event-action{
+    background-color: $highlight-color-light;
+    .center{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 1.2rem;
+      @media (max-width: 800px){
+        margin-top: 0;
+      }
+    }
+    .event-cost{
+      //flex-basis: 30%;
+    }
+    .event-buttons{
+      //flex-basis: 70%;
+      text-align: right;
+    }
+    p{
+      color: white;
+      font-weight: bold;
+    }
+    button{
+      display: inline-block;
+      background-color: white;
+      color: $highlight-color-light;
+      font-weight: normal;
+      font-size: modular-scale(-1);
+      &:hover{
+        background-color: shade(white, 20);
+      }
+      @media (max-width: 800px){
+        min-width: 6rem;
+      }
+    }
+  }
+  h1{
+    font-size: modular-scale(0);
+    font-weight: 700;
+    margin: 0;
+  }
+  h2{
+    margin: 0;
+    text-transform: uppercase;
+  }
+  p{
+    margin: 0;
+    //font-size: modular-scale(-1);
   }
 }
 

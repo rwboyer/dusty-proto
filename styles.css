@@ -368,6 +368,12 @@ nav.side {
         background-color: rgba(0, 0, 0, 0.2);
         padding: 2rem 1rem;
         margin: 0 1rem; }
+  .main #upcoming-events {
+    padding: 2rem;
+    background-color: #e7e6d7; }
+    .main #upcoming-events h3 {
+      text-align: center;
+      text-transform: uppercase; }
   @media (max-width: 800px) {
     .main {
       width: 100%;
@@ -376,7 +382,10 @@ nav.side {
       overflow: visible;
       padding: 0; }
       .main .content {
-        overflow: visible; } }
+        overflow: visible; }
+      .main #countdown, .main #farm, .main #mission, .main #sign-up, .main #upcoming-events {
+        padding-left: 1rem;
+        padding-right: 1rem; } }
 
 img {
   max-width: 100%; }
@@ -401,6 +410,77 @@ button {
     height: 100px; }
     .farm-grid .farm-item:nth-child(even) {
       background-color: #b1b1b1; }
+
+.upcoming {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  margin-top: 1rem; }
+  .upcoming li {
+    -webkit-flex-basis: 50%;
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%;
+    padding: 2rem; }
+    @media (max-width: 800px) {
+      .upcoming li {
+        -webkit-flex-basis: 100%;
+            -ms-flex-preferred-size: 100%;
+                flex-basis: 100%;
+        padding: 1rem; } }
+  .upcoming .event-info {
+    background-color: #F2F1E8; }
+  .upcoming .event-action {
+    background-color: #f48266; }
+    .upcoming .event-action .center {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin-top: 1.2rem; }
+      @media (max-width: 800px) {
+        .upcoming .event-action .center {
+          margin-top: 0; } }
+    .upcoming .event-action .event-buttons {
+      text-align: right; }
+    .upcoming .event-action p {
+      color: white;
+      font-weight: bold; }
+    .upcoming .event-action button {
+      display: inline-block;
+      background-color: white;
+      color: #f48266;
+      font-weight: normal;
+      font-size: 0.7501875469em; }
+      .upcoming .event-action button:hover {
+        background-color: #cccccc; }
+      @media (max-width: 800px) {
+        .upcoming .event-action button {
+          min-width: 6rem; } }
+  .upcoming h1 {
+    font-size: 1em;
+    font-weight: 700;
+    margin: 0; }
+  .upcoming h2 {
+    margin: 0;
+    text-transform: uppercase; }
+  .upcoming p {
+    margin: 0; }
 
 .footer {
   display: -webkit-box;

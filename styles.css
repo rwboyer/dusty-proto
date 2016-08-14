@@ -539,6 +539,10 @@ button {
   position: relative;
   display: inline-block;
   margin: 10px; }
+  @media (max-width: 800px) {
+    .ClassyCountdown-days, .ClassyCountdown-hours, .ClassyCountdown-minutes, .ClassyCountdown-seconds {
+      width: calc(25% - 4px);
+      margin: 2px; } }
 
 .ClassyCountdown-value {
   position: absolute;

@@ -95,15 +95,56 @@
       </section>
       <section id="countdown">
         <h3>The Next Event Is In</h3>
-        <section class="content">
-          <div id="clock"></div>
-          <script>
-            $('#clock').countdown('2016/10/10', function(event) {
-              $(this).html(event.strftime('<span>%D</span>:<span>%H</span>:<span>%M</span>:<span>%S</span>'));
+        <script>                                        
+          jQuery(document).ready(function() {
+            $('#countdown').ClassyCountdown({
+                end: $.now() + (((new Date('8/16/16')).getTime() - $.now())/1000),
+                labels: true,
+                style: {
+                    element: "",
+                    textResponsive: .5,
+                    days: {
+                        gauge: {
+                            thickness: .03,
+                            bgColor: "rgba(255,255,255,0.05)",
+                            fgColor: "#1abc9c"
+                        },
+                        textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:#fff;'
+                    },
+                    hours: {
+                        gauge: {
+                            thickness: .03,
+                            bgColor: "rgba(255,255,255,0.05)",
+                            fgColor: "#2980b9"
+                        },
+                        textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:#fff;'
+                    },
+                    minutes: {
+                        gauge: {
+                            thickness: .03,
+                            bgColor: "rgba(255,255,255,0.05)",
+                            fgColor: "#8e44ad"
+                        },
+                        textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:#fff;'
+                    },
+                    seconds: {
+                        gauge: {
+                            thickness: .03,
+                            bgColor: "rgba(255,255,255,0.05)",
+                            fgColor: "#f39c12"
+                        },
+                        textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:#fff;'
+                    }
+
+                },
+                onEndCallback: function() {
+                    console.log("Time out!");
+                }
             });
-          </script>
-        </section>
+          });
+        </script>      
       </section>
+
       <section id="farm">
         <section class="content">
           	<h3>$5 from every registration is donated to:</h3>

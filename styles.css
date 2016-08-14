@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url(../assets/slick-circular/css/jquery.classycountdown.css);
 button, input[type="button"], input[type="reset"], input[type="submit"] {
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -351,7 +352,7 @@ nav.side {
         text-transform: uppercase; }
   .main #countdown {
     height: 20rem;
-    background-color: #156aa7;
+    background: url("/assets/images/mountain-peaks.jpg") no-repeat fixed center;
     text-align: center;
     padding: 2rem;
     color: white; }
@@ -452,6 +453,19 @@ button {
     background-color: #453634; }
     .footer button:hover {
       background-color: #584a48; }
+
+.ClassyCountdown-days, .ClassyCountdown-hours, .ClassyCountdown-minutes, .ClassyCountdown-seconds {
+  width: calc(25% - 20px);
+  position: relative;
+  display: inline-block;
+  margin: 10px; }
+
+.ClassyCountdown-value {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  display: block; }
 
 .centered-navigation {
   background-color: #E7F1EC;

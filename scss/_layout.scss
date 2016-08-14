@@ -184,7 +184,7 @@ nav.side{
   }
   #countdown{
     height: 20rem;
-    background-color: #156aa7;
+    background: url('/assets/images/mountain-peaks.jpg')  no-repeat fixed center;
     text-align: center;
     padding: 2rem;
     color: white;
@@ -288,4 +288,19 @@ button{
       background-color: tint($footer-dark, 10);
     }
   }
+}
+
+.ClassyCountdown-days, .ClassyCountdown-hours, .ClassyCountdown-minutes, .ClassyCountdown-seconds{
+  width: calc(25% - 20px);
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
+
+.ClassyCountdown-value{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  display: block;
 }

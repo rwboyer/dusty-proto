@@ -378,7 +378,6 @@ nav.side {
       .main #sign-up input[type="color"]:placeholder-shown, .main #sign-up input[type="date"]:placeholder-shown, .main #sign-up input[type="datetime"]:placeholder-shown, .main #sign-up input[type="datetime-local"]:placeholder-shown, .main #sign-up input[type="email"]:placeholder-shown, .main #sign-up input[type="month"]:placeholder-shown, .main #sign-up input[type="number"]:placeholder-shown, .main #sign-up input[type="password"]:placeholder-shown, .main #sign-up input[type="search"]:placeholder-shown, .main #sign-up input[type="tel"]:placeholder-shown, .main #sign-up input[type="text"]:placeholder-shown, .main #sign-up input[type="time"]:placeholder-shown, .main #sign-up input[type="url"]:placeholder-shown, .main #sign-up input[type="week"]:placeholder-shown, .main #sign-up input:not([type]):placeholder-shown, .main #sign-up textarea:placeholder-shown {
         text-transform: uppercase; }
   .main #countdown {
-    height: 25rem;
     background: url("/assets/images/mountains.jpg") no-repeat fixed center;
     text-align: center;
     padding: 2rem;

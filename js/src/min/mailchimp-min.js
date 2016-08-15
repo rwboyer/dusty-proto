@@ -1,0 +1,2 @@
+function subscribeSomeoneToMailChimpList(){var e={apikey:"9619b797a9fa70f0a28156dd986d34e9-us10",id:"c9e0d2fad6",email:{email:"me@example.com"},send_welcome:!1},i=UrlFetchApp.fetch("https://us10.api.mailchimp.com/2.0/lists/subscribe.json",e),s=Utilities.jsonParse(i.getContentText())}
+//# sourceMappingURL=./mailchimp-min.js.map

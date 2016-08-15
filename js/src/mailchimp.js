@@ -2,14 +2,14 @@
 function handle_mailchimp(){
   jQuery.ajax({
     url: 'https://heroku-mailgun.herokuapp.com/mailchimp-api/list?first=' + 
-    jquery('#sign-up #first-name').val() +
+    jQuery('#sign-up #first-name').val() +
     '&last=' +
-    jquery('#sign-up #last-name').val() +
+    jQuery('#sign-up #last-name').val() +
     '&email=' +
-    jquery('#sign-up #email').val(),
+    jQuery('#sign-up #email').val(),
     dataType: "jsonp",
     success: function (data) {
-      console.log(data)
+      console.log(data);
       alert(data);
     }
   });

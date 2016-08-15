@@ -322,7 +322,9 @@ nav.side {
   height: 100%;
   padding-top: 4rem; }
   .main #mission {
-    background-color: #f48266;
+    background: url("/assets/images/orange-bg.png") no-repeat;
+    background-size: cover;
+    background-position: center;
     color: white;
     padding: 3rem 4rem;
     text-align: center; }
@@ -352,7 +354,7 @@ nav.side {
         text-transform: uppercase; }
   .main #countdown {
     height: 20rem;
-    background: url("/assets/images/mountain-peaks.jpg") no-repeat fixed center;
+    background: url("/assets/images/mountains.jpg") no-repeat fixed center;
     text-align: center;
     padding: 2rem;
     color: white; }

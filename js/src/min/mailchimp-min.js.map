@@ -1,1 +1,0 @@
-{"version":3,"sources":["../mailchimp.js"],"names":["$","handle_mailchimp","console","log","jQuery","Zepto"],"mappings":"CAAA,SAAUA,GACR,QAASC,KACPC,QAAQC,IAAI,qBAEK,mBAAXC,QAAyBA,OAASC","file":"mailchimp-min.js"}

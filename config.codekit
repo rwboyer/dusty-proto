@@ -3706,6 +3706,17 @@
 		"outputStyle": 2,
 		"syntaxCheckerStyle": 1
 		},
+	"\/js\/src\/mobile-menu.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/src\/mobile-menu.js",
+		"outputAbbreviatedPath": "\/js\/src\/min\/mobile-menu-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
 	"\/js\/src\/scroll.js": {
 		"fileType": 64,
 		"ignore": 1,

@@ -544,17 +544,22 @@ button{
 
 .footer{
   display: flex;
-  flex-wrap: wrap;
+  //flex-wrap: wrap;
+  justify-content: space-around;
+  @media (max-width: 800px){
+    flex-wrap: wrap;
+  }
   .circus-logo{
     flex-basis: 20%;
-    padding: 2rem 1rem;
+    padding: 2rem 0 2rem 2rem;
     text-align: center;
     @media (max-width: $medium-screen){
-      flex-basis: 30%;
+      flex-basis: 40%;
     }
   }
   .circus-links{
-    flex-basis: 40%;
+    //flex-basis: 40%;
+    flex-shrink: 2;
     padding: 2rem;
     h3, a{
       line-height: 1.8rem;
@@ -562,14 +567,14 @@ button{
     button{
       margin-top: 2rem;
     }
-    @media (max-width: $medium-screen){
-      flex-basis: 70%;
+    @media (max-width: 800px){
+      flex-basis: 60%;
     }
   }
   .contact-form{
     flex-basis: 40%;
     padding: 2rem;
-    @media (max-width: $medium-screen){
+    @media (max-width: 800px){
       flex-basis: 100%;
     }
   }

@@ -86,6 +86,72 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/front-gallery\/11947799_889819397752099_1135430077494260694_o-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 104298,
+		"inputAbbreviatedPath": "\/assets\/images\/front-gallery\/11947799_889819397752099_1135430077494260694_o-1.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/front-gallery\/11947799_889819397752099_1135430077494260694_o-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/front-gallery\/24115100321_d72d46f1bb_c.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 199801,
+		"inputAbbreviatedPath": "\/assets\/images\/front-gallery\/24115100321_d72d46f1bb_c.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/front-gallery\/24115100321_d72d46f1bb_c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/front-gallery\/Joel-Salatin-Pigs.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 84760,
+		"inputAbbreviatedPath": "\/assets\/images\/front-gallery\/Joel-Salatin-Pigs.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/front-gallery\/Joel-Salatin-Pigs.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/front-gallery\/Scottsdale-biking-group1--600x399.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 96776,
+		"inputAbbreviatedPath": "\/assets\/images\/front-gallery\/Scottsdale-biking-group1--600x399.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/front-gallery\/Scottsdale-biking-group1--600x399.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/front-gallery\/Shen Val.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 404179,
+		"inputAbbreviatedPath": "\/assets\/images\/front-gallery\/Shen Val.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/front-gallery\/Shen Val.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/front-gallery\/showalters4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 284588,
+		"inputAbbreviatedPath": "\/assets\/images\/front-gallery\/showalters4.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/front-gallery\/showalters4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/honeyville-hero.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

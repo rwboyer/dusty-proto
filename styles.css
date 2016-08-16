@@ -512,6 +512,8 @@ button {
         -ms-flex-preferred-size: 33.333%;
             flex-basis: 33.333%;
     background-color: #ddd;
+    background-size: cover;
+    background-position: center center;
     height: 100px; }
     .farm-grid .farm-item:nth-child(even) {
       background-color: #b1b1b1; }

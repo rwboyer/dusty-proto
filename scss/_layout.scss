@@ -358,6 +358,8 @@ button{
   .farm-item{
     flex-basis: 33.333%;
     background-color: $light-gray;
+    background-size: cover;
+    background-position: center center;
     height: 100px;
     &:nth-child(even){
       background-color: shade($light-gray, 20);

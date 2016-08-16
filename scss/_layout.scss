@@ -301,6 +301,24 @@ nav.side{
       }
     }
   }
+  #about{
+    padding: 4rem 2rem;
+    h1{
+      font-family: $heading-font-family-dark;
+      font-size: modular-scale(1);
+      color: $highlight-color-dark;
+      text-transform: none;
+    }
+  }
+  #sponsor-footer{
+    background-color: $highlight-color-light;
+    padding: 4rem 2rem;
+    text-align: center;
+    height: 10rem;
+    h1{
+      color: white;
+    }
+  }
   .content{
     //position: absolute;
     //overflow-y: scroll;
@@ -385,6 +403,23 @@ button{
     }
     img{
       padding-bottom: 1rem;
+    }
+  }
+  .about-info{
+    flex-basis: 60%;
+    margin-right: 2rem;
+    @media (max-width: 800px){
+      flex-basis: 100%;
+      margin-right: 0;
+    }
+  }
+  .about-logo{
+    flex-basis: 30%;
+    flex-grow: 2;
+    margin-left: 2rem;
+    @media (max-width: 800px){
+      flex-basis: 100%;
+      margin-right: 0;
     }
   }
 }

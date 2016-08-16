@@ -7,7 +7,7 @@
         target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
         if (target.length) {
           $('.main').animate({
-            scrollTop: target.offset().top - $('.top-msg').outerHeight()
+            scrollTop: $('.main').scrollTop() + target.offset().top - $('.top-msg').outerHeight()
           }, 1000);
           return false;
         }

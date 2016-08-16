@@ -14,4 +14,16 @@
       }
     });
   });
+  $(function () {
+
+    $('.side').scroll(function () {
+        $(window).scrollTop($(this).scrollTop());
+    });
+
+    $(window).scroll(function () {
+        $('.side').scrollTop($(this).scrollTop());
+    })
+
+  });
+  
 })(jQuery);

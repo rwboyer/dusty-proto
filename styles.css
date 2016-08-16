@@ -255,13 +255,17 @@ body {
     text-transform: uppercase; }
 
 nav.side {
-  position: relative;
+  position: fixed;
+  display: block;
+  float: left;
   top: 0;
   left: 0;
   width: 20rem;
+  height: 100%;
   padding: 4rem 2rem 2rem 2rem;
   background-color: #F2F1E8;
-  color: #4B3D68; }
+  color: #4B3D68;
+  overflow: scroll; }
   @media (max-width: 800px) {
     nav.side {
       width: 100%;
@@ -353,12 +357,11 @@ nav.side {
   height: 25rem; }
 
 .main {
-  position: fixed;
+  position: relative;
   top: 0;
   margin-left: 20rem;
   overflow: auto;
   width: calc(100% - 20rem);
-  height: 100%;
   padding-top: 4rem; }
   .main #mission {
     background: url("/assets/images/orange-bg.png") no-repeat;

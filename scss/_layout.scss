@@ -133,6 +133,18 @@ nav.side{
     text-align: center;
     padding-top: 2rem;
     text-transform: uppercase;
+    &:last-child{
+      padding: 0;
+      margin: 0;
+    }
+  }
+  @media (max-width: 800px){
+    ul.menu{
+      display: none;
+    }
+    #sponsors{
+      display: none;
+    }
   }
 }
 

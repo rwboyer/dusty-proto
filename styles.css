@@ -337,6 +337,14 @@ nav.side {
     text-align: center;
     padding-top: 2rem;
     text-transform: uppercase; }
+    nav.side .copyright:last-child {
+      padding: 0;
+      margin: 0; }
+  @media (max-width: 800px) {
+    nav.side ul.menu {
+      display: none; }
+    nav.side #sponsors {
+      display: none; } }
 
 .hero {
   background-size: cover;

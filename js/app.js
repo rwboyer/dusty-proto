@@ -7,3 +7,4 @@
 // @codekit-append "src/dynamic-height.js";
 // @codekit-append "src/mailchimp.js";
 // @codekit-append "src/scroll.js";
+// @codekit-append "src/mobile-menu.js";

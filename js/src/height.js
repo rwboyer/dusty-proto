@@ -1,3 +1,4 @@
+/*
 (function( $ ){
   $(window).on('load resize', function(){
     if($('nav.side').scrollHeight < $(window).height()){
@@ -5,3 +6,4 @@
     }
   });
 })(jQuery);
+*/

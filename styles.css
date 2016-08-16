@@ -571,7 +571,7 @@ button {
       text-transform: uppercase;
       padding: 1rem 0; }
     .details .event-sponsors img {
-      padding-bottom: 1rem; }
+      padding: 1rem; }
   .details .about-info {
     -webkit-flex-basis: 60%;
         -ms-flex-preferred-size: 60%;

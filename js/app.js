@@ -1,4 +1,5 @@
 // @codekit-prepend "../bower_components/jquery/dist/jquery.js";
+// @codekit-prepend "../bower_components/jquery-colorbox/jquery.colorbox.js";
 // @codekit-append "../assets/slick-circular/js/jquery.knob.js";
 // @codekit-append "../assets/slick-circular/js/jquery.throttle.js";
 // @codekit-append "../assets/slick-circular/js/jquery.classycountdown.js";
@@ -8,3 +9,4 @@
 // @codekit-append "src/mailchimp.js";
 // @codekit-append "src/scroll.js";
 // @codekit-append "src/mobile-menu.js";
+// @codekit-append "src/colorbox.js";

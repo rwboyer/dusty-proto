@@ -2368,7 +2368,7 @@
 		},
 	"\/bower_components\/jquery-colorbox\/jquery.colorbox.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/jquery-colorbox\/jquery.colorbox.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery-colorbox\/min\/jquery.colorbox-min.js",
@@ -4310,6 +4310,17 @@
 		"outputStyle": 2,
 		"syntaxCheckerStyle": 1
 		},
+	"\/js\/src\/colorbox.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/src\/colorbox.js",
+		"outputAbbreviatedPath": "\/js\/src\/min\/colorbox-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
 	"\/js\/src\/dynamic-height.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -4452,6 +4463,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/partials\/_sponsor-footer.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/_sponsor-footer.kit",
+		"outputAbbreviatedPath": "\/partials\/_sponsor-footer.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/scss\/_flip-countdown.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
@@ -4492,7 +4512,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/_layout.scss",
-		"outputAbbreviatedPath": "\/css\/_layout.css",
+		"outputAbbreviatedPath": "\/scss\/_layout.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -4679,7 +4699,7 @@
 		"inputAbbreviatedPath": "\/styles.scss",
 		"outputAbbreviatedPath": "\/styles.css",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,

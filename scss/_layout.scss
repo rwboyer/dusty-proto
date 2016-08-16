@@ -344,6 +344,11 @@ button{
     &:nth-child(even){
       background-color: shade($light-gray, 20);
     }
+    a{
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
   }
 }
 

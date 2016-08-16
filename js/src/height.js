@@ -1,8 +1,8 @@
 (function( $ ){
-  $(window).on('resize', function(){
+  $(window).on('load resize', function(){
     //var cw = $('.content').outerHeight();
     //$('.main').css({'height':cw+'px'});
-    if($('nav.side').outerHeight() < $(window).height()){
+    if($('nav.side').scrollHeight < $(window).height()){
       $('nav.side').css({'height':$(window).height()+'px'});
     }
     //$('.big-block').css({'height':cw+'px'});
@@ -14,8 +14,10 @@
   });
 })(jQuery);
 
+/*
 jQuery(document).ready(function(){
   jQuery(window).trigger('resize');
   jQuery(window).trigger('resize');
   jQuery(window).trigger('resize');
 });
+*/

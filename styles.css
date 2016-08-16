@@ -26,7 +26,7 @@
   font-weight: normal;
   font-style: normal; }
 
-button, input[type="button"], input[type="reset"], input[type="submit"] {
+button, .details .special-button, input[type="button"], input[type="reset"], input[type="submit"] {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -51,13 +51,13 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
           user-select: none;
   vertical-align: middle;
   white-space: nowrap; }
-  button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
+  button:hover, .details .special-button:hover, button:focus, .details .special-button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
     background-color: #c36852;
     color: #fff; }
-  button:disabled, input[type="button"]:disabled, input[type="reset"]:disabled, input[type="submit"]:disabled {
+  button:disabled, .details .special-button:disabled, input[type="button"]:disabled, input[type="reset"]:disabled, input[type="submit"]:disabled {
     cursor: not-allowed;
     opacity: 0.5; }
-    button:disabled:hover, input[type="button"]:disabled:hover, input[type="reset"]:disabled:hover, input[type="submit"]:disabled:hover {
+    button:disabled:hover, .details .special-button:disabled:hover, input[type="button"]:disabled:hover, input[type="reset"]:disabled:hover, input[type="submit"]:disabled:hover {
       background-color: #f48266; }
 
 fieldset {
@@ -315,13 +315,13 @@ nav.side {
     font-weight: 400;
     text-transform: uppercase;
     text-align: center; }
-  nav.side button {
+  nav.side button, nav.side .details .special-button, .details nav.side .special-button {
     position: relative;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
     left: 50%;
     background-color: #f48266; }
-    nav.side button:hover {
+    nav.side button:hover, nav.side .details .special-button:hover, .details nav.side .special-button:hover {
       background-color: #dc755c; }
   nav.side #sponsors {
     padding-bottom: 2rem;
@@ -441,12 +441,12 @@ nav.side {
       margin-top: 1rem; }
   .main #big-register {
     padding: 2rem; }
-    .main #big-register button {
+    .main #big-register button, .main #big-register .details .special-button, .details .main #big-register .special-button {
       background-color: #f48266;
       font-size: 1.333em;
       font-family: "museo_sans700";
       width: 100%; }
-      .main #big-register button:hover {
+      .main #big-register button:hover, .main #big-register .details .special-button:hover, .details .main #big-register .special-button:hover {
         background-color: #c36852; }
   .main #event-location {
     background-image: url("/assets/images/honeyville-location.jpg");
@@ -460,10 +460,10 @@ nav.side {
       color: white;
       margin-top: 4rem;
       margin-bottom: 2rem; }
-    .main #event-location button {
+    .main #event-location button, .main #event-location .details .special-button, .details .main #event-location .special-button {
       color: white;
       background-color: #f48266; }
-      .main #event-location button:hover {
+      .main #event-location button:hover, .main #event-location .details .special-button:hover, .details .main #event-location .special-button:hover {
         background-color: #c36852; }
   .main #about {
     padding: 4rem 2rem; }
@@ -495,7 +495,7 @@ nav.side {
 img {
   max-width: 100%; }
 
-button {
+button, .details .special-button {
   background-color: #4B3D68;
   text-transform: uppercase; }
 
@@ -545,6 +545,26 @@ button {
             -ms-flex-preferred-size: 100%;
                 flex-basis: 100%;
         margin-right: 0; } }
+  .details .special-button {
+    background-color: white;
+    color: #333;
+    border: 1px solid #4B3D68;
+    text-transform: none;
+    font-weight: normal;
+    line-height: 1.5rem;
+    padding: .5rem 10rem .5rem 1.5rem;
+    margin-top: 1rem;
+    position: relative; }
+    .details .special-button:hover {
+      background-color: #f48266; }
+    .details .special-button:after {
+      content: '>';
+      position: absolute;
+      right: 1.5rem;
+      top: 1.2rem;
+      color: #4B3D68; }
+    .details .special-button span {
+      font-weight: 700; }
   .details .event-sponsors {
     -webkit-flex-basis: 30%;
         -ms-flex-preferred-size: 30%;
@@ -722,16 +742,16 @@ button {
     .upcoming .event-action p {
       color: white;
       font-weight: bold; }
-    .upcoming .event-action button {
+    .upcoming .event-action button, .upcoming .event-action .details .special-button, .details .upcoming .event-action .special-button {
       display: inline-block;
       background-color: white;
       color: #f48266;
       font-weight: normal;
       font-size: 0.7501875469em; }
-      .upcoming .event-action button:hover {
+      .upcoming .event-action button:hover, .upcoming .event-action .details .special-button:hover, .details .upcoming .event-action .special-button:hover {
         background-color: #cccccc; }
       @media (max-width: 800px) {
-        .upcoming .event-action button {
+        .upcoming .event-action button, .upcoming .event-action .details .special-button, .details .upcoming .event-action .special-button {
           min-width: 6rem; } }
   .upcoming h1 {
     font-size: 1em;
@@ -774,7 +794,7 @@ button {
     padding: 2rem; }
     .footer .circus-links h3, .footer .circus-links a {
       line-height: 1.8rem; }
-    .footer .circus-links button {
+    .footer .circus-links button, .footer .circus-links .details .special-button, .details .footer .circus-links .special-button {
       margin-top: 2rem; }
     @media (max-width: 800px) {
       .footer .circus-links {
@@ -795,9 +815,9 @@ button {
     text-transform: uppercase;
     font-size: 1em;
     margin-bottom: 0; }
-  .footer button {
+  .footer button, .footer .details .special-button, .details .footer .special-button {
     background-color: #453634; }
-    .footer button:hover {
+    .footer button:hover, .footer .details .special-button:hover, .details .footer .special-button:hover {
       background-color: #584a48; }
 
 .ClassyCountdown-days, .ClassyCountdown-hours, .ClassyCountdown-minutes, .ClassyCountdown-seconds {

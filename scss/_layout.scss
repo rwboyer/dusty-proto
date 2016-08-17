@@ -327,11 +327,15 @@ nav.side{
   }
   #sponsor-footer{
     background-color: $highlight-color-light;
-    padding: 4rem 2rem;
+    padding: 2rem 2rem;
     text-align: center;
-    height: 10rem;
+    //height: 10rem;
     h1{
       color: white;
+    }
+    img{
+      max-height: 4rem;
+      max-width: 8rem;
     }
   }
   .content{

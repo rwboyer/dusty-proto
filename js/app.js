@@ -10,3 +10,4 @@
 // @codekit-append "src/scroll.js";
 // @codekit-append "src/mobile-menu.js";
 // @codekit-append "src/colorbox.js";
+// @codekit-append "src/modal.js";

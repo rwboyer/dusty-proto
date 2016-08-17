@@ -54,6 +54,8 @@ nav.side{
   overflow: scroll;
   @media (max-width: 800px){
     width: 100%;
+    position: relative;
+    float: none;
     height: auto !important;
   }
   img.logo{

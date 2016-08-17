@@ -269,6 +269,8 @@ nav.side {
   @media (max-width: 800px) {
     nav.side {
       width: 100%;
+      position: relative;
+      float: none;
       height: auto !important; } }
   nav.side img.logo {
     position: relative;

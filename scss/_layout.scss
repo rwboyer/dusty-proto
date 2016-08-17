@@ -300,8 +300,9 @@ nav.side{
   }
   #event-location{
     background-image: url('/assets/images/honeyville-location.jpg');
+    background-attachment: fixed;
     background-size: cover;
-    background-position: center top;
+    background-position: center bottom;
     //height: 30rem;
     padding: 4rem 2rem;
     h1{

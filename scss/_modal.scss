@@ -38,7 +38,7 @@
 
   .modal-fade-screen { // overlay
     @include position(fixed, 0);
-    background-color: rgba(#fff, 0.85);
+    background-color: rgba(#000, 0.85);
     opacity: 0;
     padding-top: 0.6em;
     text-align: left;
@@ -94,7 +94,7 @@
     position: relative;
     transition: opacity 0.25s ease;
     width: 95%;
-    border: 1px solid $dark-gray;
+    //border: 1px solid $dark-gray;
     
 
     @media(max-width: 800px) {

@@ -89,6 +89,11 @@ nav.side{
         color: tint($highlight-color-dark, 25);
       }
     }
+    label{
+      display: inline;
+      margin-bottom: 0;
+      font-weight: normal;
+    }
   }
   ul.menu{
     padding-top: 2rem;

@@ -1,7 +1,7 @@
 (function( $ ){
 
   $(function() {
-    $("#modal-1").on("change", function() {
+    $('input[id^="modal-"]').on("change", function() {
       if ($(this).is(":checked")) {
         $("body").addClass("modal-open");
       } else {
@@ -32,7 +32,7 @@
     if (window.location.search) {
          var showModal = getQueryVariable('showModal');
          if (showModal == 'yes') {
-              $(".modal-state").prop("checked", true).change();
+              $(".modal-state#modal-1").prop("checked", true).change();
          }
     }
   });

@@ -300,6 +300,10 @@ nav.side {
       transition: all .2s linear; }
       nav.side ul.icons a:hover {
         color: #786e8e; }
+    nav.side ul.icons label {
+      display: inline;
+      margin-bottom: 0;
+      font-weight: normal; }
   nav.side ul.menu {
     padding-top: 2rem;
     overflow: hidden;
@@ -1124,6 +1128,11 @@ button, .details .special-button {
   .modal .modal-inner img {
     display: block;
     max-width: 10rem;
+    float: left;
+    padding-right: 2rem; }
+  .modal .modal-inner .fa-youtube {
+    display: block;
+    font-size: 10rem;
     float: left;
     padding-right: 2rem; }
   .modal .modal-inner .modal-intro {

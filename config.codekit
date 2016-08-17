@@ -4708,6 +4708,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/partials\/_youtube-modal.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/_youtube-modal.kit",
+		"outputAbbreviatedPath": "\/partials\/_youtube-modal.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/scss\/_flip-countdown.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,

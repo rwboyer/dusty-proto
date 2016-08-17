@@ -426,7 +426,7 @@ nav.side {
         padding: 2rem 1rem;
         margin: 0 1rem; }
   .main #upcoming-events {
-    padding: 2rem;
+    padding: 2rem 2rem 4rem 2rem;
     background-color: #e7e6d7; }
     .main #upcoming-events h3 {
       text-align: center;

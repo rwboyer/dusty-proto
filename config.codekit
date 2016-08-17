@@ -251,6 +251,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/honeyville-rd-de-gallery\/showalters8.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 329024,
+		"inputAbbreviatedPath": "\/assets\/images\/honeyville-rd-de-gallery\/showalters8.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/honeyville-rd-de-gallery\/showalters8.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/LAROQUE-string-06.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

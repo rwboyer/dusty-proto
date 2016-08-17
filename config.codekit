@@ -108,6 +108,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/front-gallery\/IMG_2760.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 226191,
+		"inputAbbreviatedPath": "\/assets\/images\/front-gallery\/IMG_2760.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/front-gallery\/IMG_2760.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/front-gallery\/Joel-Salatin-Pigs.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -181,6 +192,17 @@
 		"initialSize": 278824,
 		"inputAbbreviatedPath": "\/assets\/images\/honeyville-rd-de-gallery\/Apple-Picking.jpg",
 		"outputAbbreviatedPath": "\/assets\/images\/honeyville-rd-de-gallery\/Apple-Picking.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/honeyville-rd-de-gallery\/IMG_2411.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 756068,
+		"inputAbbreviatedPath": "\/assets\/images\/honeyville-rd-de-gallery\/IMG_2411.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/honeyville-rd-de-gallery\/IMG_2411.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

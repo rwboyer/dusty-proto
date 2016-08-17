@@ -125,9 +125,17 @@ nav.side{
   #sponsors{
     padding-bottom: 2rem;
     text-align: center;
+    h1{
+      margin-bottom: 0;
+    }
+    img.logo{
+      transform: none;
+      left: auto;
+      max-height: 10rem;
+    }
     @media (max-width: 800px){
       img.logo{
-        width: 15rem;
+        max-width: 15rem;
         transform: none;
         left: auto;
       }

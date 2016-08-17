@@ -332,9 +332,16 @@ nav.side {
   nav.side #sponsors {
     padding-bottom: 2rem;
     text-align: center; }
+    nav.side #sponsors h1 {
+      margin-bottom: 0; }
+    nav.side #sponsors img.logo {
+      -webkit-transform: none;
+              transform: none;
+      left: auto;
+      max-height: 10rem; }
     @media (max-width: 800px) {
       nav.side #sponsors img.logo {
-        width: 15rem;
+        max-width: 15rem;
         -webkit-transform: none;
                 transform: none;
         left: auto; } }

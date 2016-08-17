@@ -1122,6 +1122,11 @@ button, .details .special-button {
   .modal .modal-inner p {
     color: #333;
     line-height: 1.5; }
+  .modal .modal-inner img {
+    display: block;
+    max-width: 10rem;
+    float: left;
+    padding-right: 2rem; }
   .modal .modal-inner .modal-intro {
     margin-bottom: 1em; }
   .modal .modal-inner .modal-content {

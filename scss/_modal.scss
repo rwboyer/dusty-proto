@@ -95,6 +95,7 @@
     transition: opacity 0.25s ease;
     width: 95%;
     border: 1px solid $dark-gray;
+    
 
     @media(max-width: 800px) {
       max-height: 70%;
@@ -115,6 +116,13 @@
     p {
       color: $base-font-color;
       line-height: $base-line-height;
+    }
+    
+    img{
+      display: block;
+      max-width: 10rem;
+      float: left;
+      padding-right: 2rem;
     }
 
     .modal-intro {

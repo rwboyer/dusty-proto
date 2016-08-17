@@ -339,6 +339,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/OTEP Logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 209135,
+		"inputAbbreviatedPath": "\/assets\/images\/OTEP Logo.png",
+		"outputAbbreviatedPath": "\/assets\/images\/OTEP Logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/relay-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,

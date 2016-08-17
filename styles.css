@@ -1115,7 +1115,8 @@ button, .details .special-button {
     .modal .modal-inner {
       max-height: 70%;
       padding: 3em;
-      width: 60%; } }
+      width: 60%;
+      text-align: center; } }
   @media (min-width: 800px) {
     .modal .modal-inner {
       width: 50%; } }
@@ -1123,6 +1124,9 @@ button, .details .special-button {
     color: #333;
     text-align: left;
     text-transform: capitalize; }
+    @media (max-width: 800px) {
+      .modal .modal-inner h1 {
+        text-align: center; } }
   .modal .modal-inner p {
     color: #333;
     line-height: 1.5; }
@@ -1131,11 +1135,23 @@ button, .details .special-button {
     max-width: 10rem;
     float: left;
     padding-right: 2rem; }
+    @media (max-width: 800px) {
+      .modal .modal-inner img {
+        display: inline-block;
+        float: none;
+        padding-right: 0;
+        padding-bottom: 2rem; } }
   .modal .modal-inner .fa-youtube {
     display: block;
     font-size: 10rem;
     float: left;
     padding-right: 2rem; }
+    @media (max-width: 800px) {
+      .modal .modal-inner .fa-youtube {
+        display: inline-block;
+        float: none;
+        padding-right: 0;
+        padding-bottom: 2rem; } }
   .modal .modal-inner .modal-intro {
     margin-bottom: 1em; }
   .modal .modal-inner .modal-content {

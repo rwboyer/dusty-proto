@@ -101,6 +101,7 @@
       max-height: 70%;
       padding: $modal-padding;
       width: 60%;
+      text-align: center;
     }
 
     @media(min-width: 800px) {
@@ -111,6 +112,9 @@
       color: $base-font-color;
       text-align: left;
       text-transform: capitalize;
+      @media(max-width: 800px) {
+        text-align: center;
+      }
     }
 
     p {
@@ -123,6 +127,12 @@
       max-width: 10rem;
       float: left;
       padding-right: 2rem;
+      @media(max-width: 800px) {
+        display: inline-block;
+        float: none;
+        padding-right: 0;
+        padding-bottom: 2rem;
+      }
     }
     
     .fa-youtube{
@@ -130,6 +140,12 @@
       font-size: 10rem;
       float: left;
       padding-right: 2rem;
+      @media(max-width: 800px) {
+        display: inline-block;
+        float: none;
+        padding-right: 0;
+        padding-bottom: 2rem;
+      }
     }
 
     .modal-intro {

@@ -4690,6 +4690,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/partials\/_signup-modal.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/_signup-modal.kit",
+		"outputAbbreviatedPath": "\/partials\/_signup-modal.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/partials\/_site-msg.kit": {
 		"fileType": 2048,
 		"ignore": 1,

@@ -393,7 +393,8 @@ nav.side {
     .main #sign-up input[type="color"], .main #sign-up input[type="date"], .main #sign-up input[type="datetime"], .main #sign-up input[type="datetime-local"], .main #sign-up input[type="email"], .main #sign-up input[type="month"], .main #sign-up input[type="number"], .main #sign-up input[type="password"], .main #sign-up input[type="search"], .main #sign-up input[type="tel"], .main #sign-up input[type="text"], .main #sign-up input[type="time"], .main #sign-up input[type="url"], .main #sign-up input[type="week"], .main #sign-up input:not([type]), .main #sign-up textarea {
       display: inline-block;
       width: 12rem;
-      line-height: 1.6rem; }
+      font-size: 0.7501875469em;
+      line-height: 1.8rem; }
       .main #sign-up input[type="color"]:placeholder-shown, .main #sign-up input[type="date"]:placeholder-shown, .main #sign-up input[type="datetime"]:placeholder-shown, .main #sign-up input[type="datetime-local"]:placeholder-shown, .main #sign-up input[type="email"]:placeholder-shown, .main #sign-up input[type="month"]:placeholder-shown, .main #sign-up input[type="number"]:placeholder-shown, .main #sign-up input[type="password"]:placeholder-shown, .main #sign-up input[type="search"]:placeholder-shown, .main #sign-up input[type="tel"]:placeholder-shown, .main #sign-up input[type="text"]:placeholder-shown, .main #sign-up input[type="time"]:placeholder-shown, .main #sign-up input[type="url"]:placeholder-shown, .main #sign-up input[type="week"]:placeholder-shown, .main #sign-up input:not([type]):placeholder-shown, .main #sign-up textarea:placeholder-shown {
         text-transform: uppercase; }
   .main #countdown {
@@ -816,10 +817,14 @@ button, .details .special-button {
         -webkit-flex-basis: 100%;
             -ms-flex-preferred-size: 100%;
                 flex-basis: 100%; } }
+    .footer .contact-form input[type=text], .footer .contact-form textarea {
+      font-size: 0.7501875469em; }
+    .footer .contact-form h3 {
+      margin-bottom: .75rem; }
   .footer h3 {
     text-transform: uppercase;
     font-size: 1em;
-    margin-bottom: 0; }
+    margin: 0; }
   .footer button, .footer .details .special-button, .details .footer .special-button {
     background-color: #453634; }
     .footer button:hover, .footer .details .special-button:hover, .details .footer .special-button:hover {

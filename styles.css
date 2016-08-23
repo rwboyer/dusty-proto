@@ -389,6 +389,10 @@ nav.side {
     @media (max-width: 600px) {
       .main #mission {
         padding: 2rem; } }
+    .main #mission a {
+      color: #4B3D68; }
+      .main #mission a:hover {
+        color: #6f6486; }
   .main #farm {
     padding: 3rem 4rem;
     text-align: center; }

@@ -195,6 +195,12 @@ nav.side{
     @media (max-width: $medium-screen){
       padding: 2rem;
     }
+    a{
+      color: $highlight-color-dark;
+      &:hover{
+        color: tint($highlight-color-dark, 20);
+      }
+    }
   }
   #farm{
     padding: 3rem 4rem;

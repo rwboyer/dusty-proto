@@ -501,7 +501,7 @@ nav.side {
     .main #sponsor-footer h1 {
       color: white; }
     .main #sponsor-footer img {
-      max-height: 4rem;
+      max-height: 6rem;
       max-width: 8rem; }
   @media (max-width: 800px) {
     .main {

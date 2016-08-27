@@ -1,0 +1,33 @@
+{
+  "name": "dusty-proto",
+  "version": "1.0.0",
+  "description": "Hello World!\\n",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rwboyer/dusty-proto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rwboyer/dusty-proto/issues"
+  },
+  "homepage": "https://github.com/rwboyer/dusty-proto#readme",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "expose-loader": "^0.7.1",
+    "imports-loader": "^0.6.5",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "script-loader": "^0.7.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.0"
+  }
+}

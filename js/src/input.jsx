@@ -26,13 +26,9 @@ var Input = React.createClass({
 
   componentWillReceiveProps: function (newProps) {    
     // perform update only when new value exists and not empty  
-    if(newProps.value) {
-      if(newProps.value.length > 0) {
-        this.setState({
-          value: newProps.value
-        });
-      }   
-    }
+    this.setState({
+      value: newProps.value
+    });
   },
 
   handleFocus: function () {

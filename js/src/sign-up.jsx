@@ -75,7 +75,7 @@ var CreateSignUp = React.createClass({
   render: function() {
     return (
 
-      <div class="jsx-wrapper">
+      <div className="jsx-wrapper">
       <h3>Sign up to receive emails about upcoming events</h3>
       <form onSubmit={this.saveAndContinue}>
           

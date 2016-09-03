@@ -2,7 +2,6 @@
 require('script!./bower_components/jquery/dist/jquery.js');
 require('./js/src/test.jsx');
 require('./js/src/sign-up.jsx');
-require('script!./js/src/mailchimp.js');
 require('script!./bower_components/jquery-colorbox/jquery.colorbox.js');
 //require('imports?jQuery=jquery,$=jquery,this=>window!jquery-colorbox/jquery.colorbox.js')
 //require('imports?jQuery=jquery,$=jquery,this=>window!jquery.knob.js')

@@ -21611,6 +21611,20 @@
 	  saveAndContinue: function saveAndContinue(e) {
 	    e.preventDefault();
 
+	    jQuery.ajax({
+	      url: 'https://heroku-mailgun.herokuapp.com/mailchimp-api/list?first=' + this.state.fName + '&last=' + this.state.lName + '&email=' + this.state.email,
+	      dataType: "jsonp",
+	      jsonpCallback: "localJsonpCallback"
+	    });
+
+	    function localJsonpCallback(j) {
+	      if (!json.Error) {
+	        console.log('success mailchimp');
+	      } else {
+	        console.log('fail mailchimp');
+	      }
+	    }
+
 	    var data = {
 	      email: this.state.email,
 	      lName: this.state.lName,
@@ -21621,7 +21635,8 @@
 	      fName: '',
 	      lName: ''
 	    });
-	    console.log('Thanks.' + JSON.stringify(data));
+	    jQuery(".modal-state#modal-3").prop("checked", true).change();
+	    console.log('Sign Up:' + JSON.stringify(data));
 	  },
 
 	  handlelNameInput: function handlelNameInput(event) {
@@ -21651,26 +21666,18 @@
 	  render: function render() {
 	    return _react2.default.createElement(
 	      'div',
-	      { className: 'create_signup_screen' },
+	      { 'class': 'jsx-wrapper' },
 	      _react2.default.createElement(
-	        'div',
-	        { className: 'create_signup_form' },
+	        'h3',
+	        null,
+	        'Sign up to receive emails about upcoming events'
+	      ),
+	      _react2.default.createElement(
+	        'form',
+	        { onSubmit: this.saveAndContinue },
 	        _react2.default.createElement(
-	          'h1',
-	          null,
-	          'Create account'
-	        ),
-	        _react2.default.createElement(
-	          'form',
-	          { onSubmit: this.saveAndContinue },
-	          _react2.default.createElement(Input, {
-	            text: 'Email Address',
-	            placeholder: 'Email Address',
-	            ref: 'email',
-	            type: 'text',
-	            value: this.state.email,
-	            onChange: this.handleEmailInput
-	          }),
+	          'div',
+	          { id: 'contact-contain' },
 	          _react2.default.createElement(Input, {
 	            text: 'First Name',
 	            placeholder: 'First Name',
@@ -21685,12 +21692,20 @@
 	            value: this.state.lName,
 	            onChange: this.handlelNameInput
 	          }),
+	          _react2.default.createElement(Input, {
+	            text: 'Email Address',
+	            placeholder: 'Email Address',
+	            ref: 'email',
+	            type: 'text',
+	            value: this.state.email,
+	            onChange: this.handleEmailInput
+	          }),
 	          _react2.default.createElement(
 	            'button',
 	            {
 	              type: 'submit',
-	              className: 'button button_wide' },
-	            'CREATE ACCOUNT'
+	              className: 'submit-button' },
+	            'Sign Up'
 	          )
 	        )
 	      )
@@ -21700,7 +21715,7 @@
 	});
 
 	// Render! why
-	_reactDom2.default.render(_react2.default.createElement(CreateSignUp, null), document.getElementById('jsx'));
+	_reactDom2.default.render(_react2.default.createElement(CreateSignUp, null), document.getElementById('jsx-sign-up'));
 
 /***/ },
 /* 179 */
@@ -21735,7 +21750,6 @@
 	    this.setState({
 	      value: event.target.value
 	    });
-	    console.log(event.target.value);
 
 	    // call onChange method on the parent component for updating it's state
 	    if (this.props.onChange) {
@@ -21766,31 +21780,18 @@
 
 	  render: function render() {
 
-	    return _react2.default.createElement(
-	      'div',
-	      { className: 'whatever' },
-	      _react2.default.createElement(
-	        'label',
-	        { className: 'input_label', htmlFor: this.props.text },
-	        _react2.default.createElement(
-	          'span',
-	          { className: 'label_text' },
-	          this.props.text
-	        )
-	      ),
-	      _react2.default.createElement('input', {
-	        //{...this.props}
-	        placeholder: this.props.placeholder,
-	        className: 'input',
-	        id: this.props.text,
-	        defaultValue: this.props.defaultValue,
-	        value: this.state.value,
-	        onChange: this.handleChange,
-	        onFocus: this.handleFocus,
-	        onBlur: this.handleBlur,
-	        autoComplete: 'off'
-	      })
-	    );
+	    return _react2.default.createElement('input', {
+	      //{...this.props}
+	      placeholder: this.props.placeholder,
+	      className: 'input',
+	      id: this.props.text,
+	      defaultValue: this.props.defaultValue,
+	      value: this.state.value,
+	      onChange: this.handleChange,
+	      onFocus: this.handleFocus,
+	      onBlur: this.handleBlur,
+	      autoComplete: 'off'
+	    });
 	  }
 	});
 
@@ -21806,7 +21807,7 @@
 /* 181 */
 /***/ function(module, exports) {
 
-	module.exports = "\nfunction handle_mailchimp(){\n  jQuery.ajax({\n    url: 'https://heroku-mailgun.herokuapp.com/mailchimp-api/list?first=' + \n    jQuery('#sign-up #first-name').val() +\n    '&last=' +\n    jQuery('#sign-up #last-name').val() +\n    '&email=' +\n    jQuery('#sign-up #email').val(),\n    dataType: \"jsonp\",\n    success: function (data) {\n      console.log(data);\n      alert(data);\n    }\n  });\n  console.log('sign-up');\n  event.preventDefault();\n  $(\".modal-state#modal-3\").prop(\"checked\", true).change();\n  return false;\n}\n  \n"
+	module.exports = "\nfunction handle_mailchimp(){\n  jQuery.ajax({\n    url: 'https://heroku-mailgun.herokuapp.com/mailchimp-api/list?first=' + \n    jQuery('#sign-up #first-name').val() +\n    '&last=' +\n    jQuery('#sign-up #last-name').val() +\n    '&email=' +\n    jQuery('#sign-up #email').val(),\n    dataType: \"jsonp\",\n    success: function (data) {\n      console.log(data);\n      alert(data);\n    }\n  });\n  console.log('sign-up');\n  event.preventDefault();\n  jQuery(\".modal-state#modal-3\").prop(\"checked\", true).change();\n  return false;\n}\n  \n"
 
 /***/ },
 /* 182 */

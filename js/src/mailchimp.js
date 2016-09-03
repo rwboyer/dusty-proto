@@ -15,7 +15,7 @@ function handle_mailchimp(){
   });
   console.log('sign-up');
   event.preventDefault();
-  $(".modal-state#modal-3").prop("checked", true).change();
+  jQuery(".modal-state#modal-3").prop("checked", true).change();
   return false;
 }
   

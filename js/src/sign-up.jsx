@@ -14,6 +14,26 @@ var CreateSignUp = React.createClass({
   saveAndContinue: function (e) {
     e.preventDefault();
 
+    jQuery.ajax({
+      url: 'https://heroku-mailgun.herokuapp.com/mailchimp-api/list?first=' + 
+      this.state.fName +
+      '&last=' +
+      this.state.lName +
+      '&email=' +
+      this.state.email,
+      dataType: "jsonp",
+      jsonpCallback: "localJsonpCallback"
+    });
+    
+    function localJsonpCallback(j){
+      if (!json.Error) {
+        console.log('success mailchimp');
+      }
+      else {
+        console.log('fail mailchimp');
+      }
+    }
+    
     var data = {
       email: this.state.email,
       lName: this.state.lName,
@@ -24,7 +44,8 @@ var CreateSignUp = React.createClass({
       fName: '',
       lName: ''
     });
-    console.log('Thanks.' + JSON.stringify(data));
+    jQuery(".modal-state#modal-3").prop("checked", true).change();
+    console.log('Sign Up:' + JSON.stringify(data));
   },
 
   handlelNameInput: function(event) {
@@ -53,52 +74,53 @@ var CreateSignUp = React.createClass({
 
   render: function() {
     return (
-      <div className="create_signup_screen">
 
-        <div className="create_signup_form">
-          <h1>Create account</h1>
-          <form onSubmit={this.saveAndContinue}>
+      <div class="jsx-wrapper">
+      <h3>Sign up to receive emails about upcoming events</h3>
+      <form onSubmit={this.saveAndContinue}>
+          
+        <div id="contact-contain">
 
-            <Input 
-              text="Email Address" 
-              placeholder="Email Address" 
-              ref="email"
-              type="text"
-              value={this.state.email}
-              onChange={this.handleEmailInput} 
-            />
+          <Input 
+            text="First Name" 
+            placeholder="First Name" 
+            ref="fName"
+            value={this.state.fName}
+            onChange={this.handlefNameInput} 
+          /> 
+          
+          <Input 
+            text="Last Name" 
+            placeholder="Last Name" 
+            ref="lName"
+            value={this.state.lName}
+            onChange={this.handlelNameInput} 
+          /> 
 
-            <Input 
-              text="First Name" 
-              placeholder="First Name" 
-              ref="fName"
-              value={this.state.fName}
-              onChange={this.handlefNameInput} 
-            /> 
-            
-            <Input 
-              text="Last Name" 
-              placeholder="Last Name" 
-              ref="lName"
-              value={this.state.lName}
-              onChange={this.handlelNameInput} 
-            /> 
+          <Input 
+            text="Email Address" 
+            placeholder="Email Address" 
+            ref="email"
+            type="text"
+            value={this.state.email}
+            onChange={this.handleEmailInput} 
+          />
 
-            <button 
-              type="submit" 
-              className="button button_wide">
-              CREATE ACCOUNT
-            </button>
-
-          </form>
-
+          <button 
+            type="submit" 
+            className="submit-button">
+            Sign Up
+          </button>
+          
         </div>
 
+      </form>
       </div>
+
     );
   }
     
 });
 
 // Render! why
-ReactDOM.render(<CreateSignUp />, document.getElementById('jsx'));
+ReactDOM.render(<CreateSignUp />, document.getElementById('jsx-sign-up'));

@@ -16,7 +16,6 @@ var Input = React.createClass({
     this.setState({
       value: event.target.value
     });
-    console.log(event.target.value);
 
     // call onChange method on the parent component for updating it's state
     if(this.props.onChange) {
@@ -50,26 +49,18 @@ var Input = React.createClass({
   render: function(){
 
     return (
-      <div className="whatever">
-
-        <label className="input_label" htmlFor={this.props.text}>
-          <span className="label_text">{this.props.text}</span>
-        </label>
-
-        <input 
-          //{...this.props}
-          placeholder={this.props.placeholder} 
-          className="input" 
-          id={this.props.text}
-          defaultValue={this.props.defaultValue} 
-          value={this.state.value} 
-          onChange={this.handleChange} 
-          onFocus={this.handleFocus}
-          onBlur={this.handleBlur}
-          autoComplete="off"
-        />
-
-      </div>
+      <input 
+        //{...this.props}
+        placeholder={this.props.placeholder} 
+        className="input" 
+        id={this.props.text}
+        defaultValue={this.props.defaultValue} 
+        value={this.state.value} 
+        onChange={this.handleChange} 
+        onFocus={this.handleFocus}
+        onBlur={this.handleBlur}
+        autoComplete="off"
+      />
     );
   }
 });

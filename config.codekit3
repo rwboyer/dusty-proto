@@ -356,6 +356,60 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/assets\/images\/radical-roots-gallery\/Meal-Planning-Beet-Salad-4655_iykbcd.jpg": {
+		"ft": 16384,
+		"iS": 44087,
+		"oA": 0,
+		"oAP": "\/assets\/images\/radical-roots-gallery\/Meal-Planning-Beet-Salad-4655_iykbcd.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/radical-roots-gallery\/portrait.jpg": {
+		"ft": 16384,
+		"iS": 58177,
+		"oA": 0,
+		"oAP": "\/assets\/images\/radical-roots-gallery\/portrait.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/radical-roots-gallery\/Radical-Roots-270.jpg": {
+		"ft": 16384,
+		"iS": 174176,
+		"oA": 0,
+		"oAP": "\/assets\/images\/radical-roots-gallery\/Radical-Roots-270.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/radical-roots-gallery\/Radical-Roots-Web-2014-57-700x479.jpg": {
+		"ft": 16384,
+		"iS": 102205,
+		"oA": 0,
+		"oAP": "\/assets\/images\/radical-roots-gallery\/Radical-Roots-Web-2014-57-700x479.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/radical-roots-gallery\/radical-roots.jpg": {
+		"ft": 16384,
+		"iS": 417399,
+		"oA": 0,
+		"oAP": "\/assets\/images\/radical-roots-gallery\/radical-roots.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/radical-roots-gallery\/RadicalRoots-001-960x640.jpg": {
+		"ft": 16384,
+		"iS": 192089,
+		"oA": 0,
+		"oAP": "\/assets\/images\/radical-roots-gallery\/RadicalRoots-001-960x640.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/images\/relay-logo.png": {
 		"ft": 32768,
 		"iS": 8479,
@@ -404,6 +458,16 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/assets\/slick-circular\/css\/documentation-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/slick-circular\/css\/documentation-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/assets\/slick-circular\/css\/documentation.css": {
 		"aP": 1,
 		"bl": 0,
@@ -420,6 +484,16 @@
 		"oAP": "\/assets\/slick-circular\/css\/fontawesome-webfont.woff",
 		"oF": 0
 		},
+	"\/assets\/slick-circular\/css\/jquery.classycountdown-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/slick-circular\/css\/jquery.classycountdown-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/assets\/slick-circular\/css\/jquery.classycountdown.css": {
 		"aP": 1,
 		"bl": 0,
@@ -427,6 +501,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/assets\/slick-circular\/css\/jquery.classycountdown-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/assets\/slick-circular\/css\/jquery.classycountdown.min-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/slick-circular\/css\/jquery.classycountdown.min-min-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -487,6 +571,21 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/assets\/slick-circular\/js\/min\/jquery.classycountdown.min-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/slick-circular\/js\/min\/min\/jquery.classycountdown.min-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/slick-circular\/js\/min\/jquery.classycountdown.min-min.js.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/slick-circular\/js\/min\/jquery.classycountdown.min-min.js.map",
+		"oF": 0
 		},
 	"\/assets\/slick-circular\/license": {
 		"ft": 8192,
@@ -3965,6 +4064,12 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/build\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/.gitignore",
+		"oF": 0
 		},
 	"\/clock.html": {
 		"ft": 8192,

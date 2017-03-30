@@ -670,7 +670,7 @@ button, .details .special-button {
   .offset-images .offset-big {
     -ms-flex-preferred-size: 66.666%;
         flex-basis: 66.666%;
-    background-image: url("/assets/images/slideshow6.jpg");
+    background-image: url("/assets/images/radical-roots-gallery/radical-roots.jpg");
     background-size: cover;
     background-position: center center; }
     @media (max-width: 800px) {
@@ -680,7 +680,7 @@ button, .details .special-button {
   .offset-images .offset-small {
     -ms-flex-preferred-size: 33.333%;
         flex-basis: 33.333%;
-    background-image: url("/assets/images/SarahandShannon2.jpg");
+    background-image: url("/assets/images/radical-roots-gallery/portrait.jpg");
     background-size: cover;
     background-position: center center; }
     @media (max-width: 800px) {

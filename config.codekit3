@@ -7,7 +7,7 @@
 		"uuidString": "4EEB6893-50A1-4B82-9967-4086CAB8590F"
 		}
 	],
-"creatorBuild": "25704",
+"creatorBuild": "25813",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -78,71 +78,78 @@
 	"\/assets\/images\/2fish-logo.png": {
 		"ft": 32768,
 		"iS": 70691,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/images\/2fish-logo.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/images\/bike-hero.png": {
 		"ft": 32768,
 		"iS": 860396,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/images\/bike-hero.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/images\/bluestone-logo.png": {
 		"ft": 32768,
 		"iS": 7171,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/images\/bluestone-logo.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/images\/circus-logo.png": {
 		"ft": 32768,
 		"iS": 49264,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/images\/circus-logo.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/images\/eaten-logo.png": {
 		"ft": 32768,
 		"iS": 99183,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/images\/eaten-logo.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/images\/farm-logo.png": {
 		"ft": 32768,
 		"iS": 36999,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/images\/farm-logo.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/images\/fields-logo.png": {
 		"ft": 32768,
 		"iS": 103115,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/images\/fields-logo.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/images\/front-gallery\/11947799_889819397752099_1135430077494260694_o-1.jpg": {
@@ -151,6 +158,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/front-gallery\/11947799_889819397752099_1135430077494260694_o-1.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
@@ -160,6 +168,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/front-gallery\/24115100321_d72d46f1bb_c.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
@@ -169,6 +178,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/front-gallery\/IMG_2760.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
@@ -178,6 +188,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/front-gallery\/Joel-Salatin-Pigs.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
@@ -187,6 +198,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/front-gallery\/Scottsdale-biking-group1--600x399.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
@@ -196,6 +208,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/front-gallery\/Shen Val.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
@@ -205,6 +218,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/front-gallery\/showalters4.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
@@ -214,6 +228,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/honeyville-hero.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
@@ -223,6 +238,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/honeyville-location.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
@@ -232,7 +248,19 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/honeyville-rd-de-gallery\/Apple-Picking.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/honeyville-rd-de-gallery\/friendly-city-logo.png": {
+		"ft": 32768,
+		"iS": 123009,
+		"oA": 0,
+		"oAP": "\/assets\/images\/honeyville-rd-de-gallery\/friendly-city-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/images\/honeyville-rd-de-gallery\/IMG_2411.jpg": {
@@ -241,7 +269,18 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/honeyville-rd-de-gallery\/IMG_2411.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/honeyville-rd-de-gallery\/radical-roots-logo.jpg": {
+		"ft": 16384,
+		"iS": 2087548,
+		"oA": 0,
+		"oAP": "\/assets\/images\/honeyville-rd-de-gallery\/radical-roots-logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/assets\/images\/honeyville-rd-de-gallery\/Showalter-Orchard-43.jpg": {
@@ -250,6 +289,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/honeyville-rd-de-gallery\/Showalter-Orchard-43.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
@@ -259,6 +299,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/honeyville-rd-de-gallery\/showalter_orchard-7__large.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
@@ -268,6 +309,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/honeyville-rd-de-gallery\/showalters2.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
@@ -277,6 +319,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/honeyville-rd-de-gallery\/showalters5.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
@@ -286,6 +329,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/honeyville-rd-de-gallery\/showalters8.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
@@ -295,27 +339,30 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/LAROQUE-string-06.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/images\/logo-eaten.png": {
 		"ft": 32768,
 		"iS": 267056,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/images\/logo-eaten.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/images\/logo.png": {
 		"ft": 32768,
 		"iS": 2259,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/images\/logo.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/images\/mountain-peaks.jpg": {
@@ -324,6 +371,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/mountain-peaks.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
@@ -333,27 +381,30 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/mountains.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/images\/orange-bg.png": {
 		"ft": 32768,
 		"iS": 325325,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/images\/orange-bg.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/images\/OTEP Logo.png": {
 		"ft": 32768,
 		"iS": 209135,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/images\/OTEP Logo.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/images\/radical-roots-gallery\/house.jpg": {
@@ -362,6 +413,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/radical-roots-gallery\/house.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -371,6 +423,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/radical-roots-gallery\/Meal-Planning-Beet-Salad-4655_iykbcd.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -380,6 +433,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/radical-roots-gallery\/portrait.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -389,6 +443,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/radical-roots-gallery\/radical-hero.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -398,6 +453,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/radical-roots-gallery\/Radical-Roots-270.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -407,6 +463,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/radical-roots-gallery\/Radical-Roots-Web-2014-57-700x479.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -416,6 +473,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/radical-roots-gallery\/radical-roots.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -425,17 +483,19 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/radical-roots-gallery\/RadicalRoots-001-960x640.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
 	"\/assets\/images\/relay-logo.png": {
 		"ft": 32768,
 		"iS": 8479,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/images\/relay-logo.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/images\/SarahandShannon2.jpg": {
@@ -444,27 +504,30 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/SarahandShannon2.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/images\/SHOWALTERS-Orchard-50-Years.png": {
 		"ft": 32768,
 		"iS": 390788,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/images\/SHOWALTERS-Orchard-50-Years.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/images\/sidebar.png": {
 		"ft": 32768,
 		"iS": 309292,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/images\/sidebar.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/images\/slideshow6.jpg": {
@@ -473,6 +536,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/slideshow6.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
@@ -1929,21 +1993,23 @@
 	"\/bower_components\/jquery-colorbox\/example1\/images\/border.png": {
 		"ft": 32768,
 		"iS": 76,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-colorbox\/example1\/images\/border.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/bower_components\/jquery-colorbox\/example1\/images\/controls.png": {
 		"ft": 32768,
 		"iS": 1261,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-colorbox\/example1\/images\/controls.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/bower_components\/jquery-colorbox\/example1\/images\/loading.gif": {
@@ -1957,21 +2023,23 @@
 	"\/bower_components\/jquery-colorbox\/example1\/images\/loading_background.png": {
 		"ft": 32768,
 		"iS": 131,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-colorbox\/example1\/images\/loading_background.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/bower_components\/jquery-colorbox\/example1\/images\/overlay.png": {
 		"ft": 32768,
 		"iS": 115,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-colorbox\/example1\/images\/overlay.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/bower_components\/jquery-colorbox\/example2\/colorbox.css": {
@@ -1987,11 +2055,12 @@
 	"\/bower_components\/jquery-colorbox\/example2\/images\/controls.png": {
 		"ft": 32768,
 		"iS": 503,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-colorbox\/example2\/images\/controls.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/bower_components\/jquery-colorbox\/example2\/images\/loading.gif": {
@@ -2015,11 +2084,12 @@
 	"\/bower_components\/jquery-colorbox\/example3\/images\/controls.png": {
 		"ft": 32768,
 		"iS": 1633,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-colorbox\/example3\/images\/controls.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/bower_components\/jquery-colorbox\/example3\/images\/loading.gif": {
@@ -2043,21 +2113,23 @@
 	"\/bower_components\/jquery-colorbox\/example4\/images\/border1.png": {
 		"ft": 32768,
 		"iS": 629,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-colorbox\/example4\/images\/border1.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/bower_components\/jquery-colorbox\/example4\/images\/border2.png": {
 		"ft": 32768,
 		"iS": 112,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-colorbox\/example4\/images\/border2.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/bower_components\/jquery-colorbox\/example4\/images\/loading.gif": {
@@ -2081,21 +2153,23 @@
 	"\/bower_components\/jquery-colorbox\/example5\/images\/border.png": {
 		"ft": 32768,
 		"iS": 139,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-colorbox\/example5\/images\/border.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/bower_components\/jquery-colorbox\/example5\/images\/controls.png": {
 		"ft": 32768,
 		"iS": 2027,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-colorbox\/example5\/images\/controls.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/bower_components\/jquery-colorbox\/example5\/images\/loading.gif": {
@@ -2109,11 +2183,12 @@
 	"\/bower_components\/jquery-colorbox\/example5\/images\/loading_background.png": {
 		"ft": 32768,
 		"iS": 131,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-colorbox\/example5\/images\/loading_background.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/bower_components\/jquery-colorbox\/i18n\/jquery.colorbox-ar.js": {
@@ -5543,6 +5618,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
@@ -6367,14 +6446,6 @@
 		"orderOutput": 0,
 		"outputStyle": 1
 		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
-		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
@@ -6437,7 +6508,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"enableLossy": 1,
+		"optimizerType": 1,
 		"quality": 100
 		},
 	"languageDefaultsPUG": {
